@@ -1,0 +1,21 @@
+{
+    "parser": "babel-eslint",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+
+    "env": {
+      "es6": true,
+      "jasmine": true,
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+
+  "rules": {
+  }
+}
